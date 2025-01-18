@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: @project.name@
+controller:
+  properties:
+    base-path-v1: /dms/v1/@project.name@
